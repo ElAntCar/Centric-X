@@ -23,6 +23,7 @@ local Aimbot = Instance.new("TextButton")
 local Arsenal = Instance.new("TextButton")
 local BadBussiness = Instance.new("TextButton")
 local CarCrusher = Instance.new("TextButton")
+local ChatBypass = Instance.new("TextButton")
 local FEKILL = Instance.new("TextButton")
 local FEKILLInvisible = Instance.new("TextButton")
 --Working
@@ -31,6 +32,7 @@ local Working2 = Instance.new("TextLabel")
 local Working3 = Instance.new("TextLabel")
 local WorkingBadBussiness = Instance.new("TextLabel")
 local Workingcar = Instance.new("TextLabel")
+local WorkingChat = Instance.new("TextLabel")
 local Working4 = Instance.new("TextLabel")
 local Working5 = Instance.new("TextLabel")
 --Destroy GUI
@@ -62,7 +64,7 @@ Version.BorderSizePixel = 0
 Version.Position = UDim2.new(0.453324966, 0, 0.669510841, 0)
 Version.Size = UDim2.new(0, 200, 0, 50)
 Version.Font = Enum.Font.SourceSansBold
-Version.Text = "Version: 0.0.9 (Pre-Beta)"
+Version.Text = "Version: 0.0.9-1 (Pre-Beta)"
 Version.TextColor3 = Color3.new(0.0862745, 0.0862745, 0.0862745)
 Version.TextScaled = true
 Version.TextSize = 14
@@ -424,6 +426,119 @@ Workingcar.TextSize = 14
 Workingcar.TextWrapped = true
 --
 --
+-- CHAT BYPASS
+--
+--
+ChatBypass.Name= "Chat Bypass"
+ChatBypass.Parent = Frame
+ChatBypass.BackgroundColor3 = Color3.new(1, 1, 1)
+ChatBypass.BorderSizePixel = 0
+ChatBypass.Position = UDim2.new(0.249208622, 0, 0.423, 0)
+ChatBypass.Size = UDim2.new(0, 200, 0, 50)
+ChatBypass.Font = Enum.Font.SourceSansBold
+ChatBypass.Text = "[FE] Kill"
+ChatBypass.TextColor3 = Color3.new(0, 0, 0)
+ChatBypass.TextSize = 32
+ChatBypass.TextWrapped = true
+ChatBypass.MouseButton1Down:connect(function()
+	local lp = game:GetService("Players").LocalPlayer
+
+lp.Chatted:connect(function(msg)
+
+if msg:sub(0,2) == "/e" then
+
+msg = msg:gsub("a","a⁠")
+msg = msg:gsub("b","b⁠")
+msg = msg:gsub("c","c⁠")
+msg = msg:gsub("d","d⁠")
+msg = msg:gsub("e","e⁠")
+msg = msg:gsub("f","f⁠")
+msg = msg:gsub("g","g⁠")
+msg = msg:gsub("h","h⁠")
+msg = msg:gsub("i","i⁠")
+msg = msg:gsub("j","j⁠")
+msg = msg:gsub("k","k⁠")
+msg = msg:gsub("l","l⁠")
+msg = msg:gsub("m","m⁠")
+msg = msg:gsub("n","n⁠")
+msg = msg:gsub("o","o⁠")
+msg = msg:gsub("p","p⁠")
+msg = msg:gsub("q","q⁠")
+msg = msg:gsub("r","r⁠")
+msg = msg:gsub("s","s⁠")
+msg = msg:gsub("t","t⁠")
+msg = msg:gsub("u","u⁠")
+msg = msg:gsub("v","v⁠")
+msg = msg:gsub("w","w⁠")
+msg = msg:gsub("x","x⁠")
+msg = msg:gsub("y","y⁠")
+msg = msg:gsub("z","z⁠")
+
+msg = msg:gsub("A","A⁠")
+msg = msg:gsub("B","B⁠")
+msg = msg:gsub("C","C⁠")
+msg = msg:gsub("D","D⁠")
+msg = msg:gsub("E","E⁠")
+msg = msg:gsub("F","F⁠")
+msg = msg:gsub("G","G⁠")
+msg = msg:gsub("H","H⁠")
+msg = msg:gsub("I","I⁠")
+msg = msg:gsub("J","J⁠")
+msg = msg:gsub("K","K⁠")
+msg = msg:gsub("L","L⁠")
+msg = msg:gsub("M","M⁠")
+msg = msg:gsub("N","N⁠")
+msg = msg:gsub("O","O⁠")
+msg = msg:gsub("P","P⁠")
+msg = msg:gsub("Q","Q⁠")
+msg = msg:gsub("R","R⁠")
+msg = msg:gsub("S","S⁠")
+msg = msg:gsub("T","T⁠")
+msg = msg:gsub("U","U⁠")
+msg = msg:gsub("V","V⁠")
+msg = msg:gsub("W","W⁠")
+msg = msg:gsub("X","X⁠")
+msg = msg:gsub("Y","Y⁠")
+msg = msg:gsub("Z","Z⁠")
+msg = msg:gsub("1","1⁠")
+msg = msg:gsub("2","2⁠")
+msg = msg:gsub("3","3⁠")
+msg = msg:gsub("4","4⁠")
+msg = msg:gsub("5","5⁠")
+msg = msg:gsub("6","6⁠")
+msg = msg:gsub("7","7⁠")
+msg = msg:gsub("8","8⁠")
+msg = msg:gsub("9","9⁠")
+msg = msg:gsub("0","0⁠")
+
+local word = msg:sub(3)
+
+local tbl_main = 
+{
+      word,
+      "All"
+}
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(tbl_main))
+
+end
+
+end)
+end)
+WorkingChat.Name = "WorkingChat"
+WorkingChat.Parent = ChatBypass
+WorkingChat.BackgroundColor3 = Color3.new(1, 1, 1)
+WorkingChat.BackgroundTransparency = 1
+WorkingChat.BorderSizePixel = 0
+WorkingChat.Position = UDim2.new(1.06, 0, 0, 0)
+WorkingChat.Size = UDim2.new(0, 114, 0, 50)
+WorkingChat.Font = Enum.Font.SourceSansBold
+WorkingChat.Text = "Working ✔"
+WorkingChat.TextColor3 = Color3.new(0.333333, 1, 0)
+WorkingChat.TextScaled = true
+WorkingChat.TextSize = 14
+WorkingChat.TextWrapped = true
+--
+--
 -- FE KILL
 --
 --
@@ -431,7 +546,7 @@ FEKILL.Name = "FE KILL"
 FEKILL.Parent = Frame
 FEKILL.BackgroundColor3 = Color3.new(1, 1, 1)
 FEKILL.BorderSizePixel = 0
-FEKILL.Position = UDim2.new(0.0249208622, 0, 0.423, 0)
+FEKILL.Position = UDim2.new(0.0249208622, 0, 0.505, 0)
 FEKILL.Size = UDim2.new(0, 200, 0, 50)
 FEKILL.Font = Enum.Font.SourceSansBold
 FEKILL.Text = "[FE] Kill"
@@ -467,7 +582,7 @@ FEKILLInvisible.Name = "FEKillInvisible"
 FEKILLInvisible.Parent = Frame
 FEKILLInvisible.BackgroundColor3 = Color3.new(1, 1, 1)
 FEKILLInvisible.BorderSizePixel = 0
-FEKILLInvisible.Position = UDim2.new(0.024908622, 0, 0.505, 0)
+FEKILLInvisible.Position = UDim2.new(0.024908622, 0, 0.587, 0)
 FEKILLInvisible.Size = UDim2.new(0, 200, 0, 50)
 FEKILLInvisible.Font = Enum.Font.SourceSansBold
 FEKILLInvisible.Text = "[FE] Invisible Kill"
@@ -754,7 +869,7 @@ MainFrame.Visible = true
 wait(0.3)
 
 game.StarterGui:SetCore("SendNotification", {
-    Title = "Centric X 0.0.9(Pre-Beta) Loaded";
+    Title = "Centric X 0.0.9-1 Loaded";
     Text = "GUI made by AntCar#3763 (not scripts)";
 })
 wait(6.5)
