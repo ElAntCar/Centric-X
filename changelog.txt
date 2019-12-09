@@ -2,7 +2,7 @@
 
 9/11/19 Github started!
 
-[NOT IMPLEMENTED] 8/12/19 Centric X updated 0.0.9-1 (Pre-Beta) changelog:
+8/12/19 Centric X updated 0.0.9-1 (Pre-Beta) changelog:
 [+] Added a Chat Bypass Method
 
 30/11/19 Centric X updated 0.0.9 (Pre-Beta) changelog:
