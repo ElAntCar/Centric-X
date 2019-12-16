@@ -46,7 +46,7 @@ game.StarterGui:SetCore("SendNotification", {
 [*] Compacted to 300 lines.
 
 4/10/19 Centric X updated 0.0.4 (Pre-Beta) changelog:
-[+] Added 3 sections, 
+[+] Added 3 sections
 [+] Another Frame 
 [+] Working System (says if the script works or its semipatched/patched).
 
