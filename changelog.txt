@@ -1,4 +1,4 @@
-# Centric-X
+# Centric-X Pre-Beta
 
 16/12/19 Centric X updated 0.0.9-4 (Pre-Beta) changelog:
 [FX] Fixed ChatBypass.Position
@@ -58,5 +58,11 @@ game.StarterGui:SetCore("SendNotification", {
 4/9/19 Centric X updated 0.0.2 (Pre-Beta) changelog:
 [+] Main Frame With rounded Corners Created.
 
-Centric X updated 0.0.1 (Pre-Beta) changelog:
+3/9/19 Centric X updated 0.0.1 (Pre-Beta) changelog:
 [*] Project Started
+
+4/12/19 # Centric-X Alpha Discontinued
+Centric X updated 1.0 (Alpha) changelog:
+[INFO] This is the last version ONLY of Centric X (Alpha) lol rip.
+[+] Added 1 Script into Jailbreak Section (not tested yet)
+[+] Added 1 Script to LT Section
