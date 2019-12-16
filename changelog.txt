@@ -1,6 +1,16 @@
 # Centric-X
 
-9/11/19 Github started!
+16/12/19 Centric X updated 0.0.9-4 (Pre-Beta) changelog:
+[FX] Fixed ChatBypass.Position
+[FX] FEKILL Loadstrings
+
+13/12/19 [BROKEN] Centric X updated 0.0.9-3 (Pre-Beta) changelog:
+[+] Added a Notification in Chat Bypass
+
+13/12/19 Centric X updated 0.0.9-2 (Pre-Beta) changelog:
+[FX] Fixed ChatBypass.Text
+
+9/12/19 Github started!
 
 8/12/19 Centric X updated 0.0.9-1 (Pre-Beta) changelog:
 [+] Added a Chat Bypass Method
