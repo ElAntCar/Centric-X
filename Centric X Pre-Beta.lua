@@ -64,7 +64,7 @@ Version.BorderSizePixel = 0
 Version.Position = UDim2.new(0.453324966, 0, 0.669510841, 0)
 Version.Size = UDim2.new(0, 200, 0, 50)
 Version.Font = Enum.Font.SourceSansBold
-Version.Text = "Version: 0.0.9-3 (Pre-Beta)"
+Version.Text = "Version: 0.0.9-4 (Pre-Beta)"
 Version.TextColor3 = Color3.new(0.0862745, 0.0862745, 0.0862745)
 Version.TextScaled = true
 Version.TextSize = 14
@@ -433,7 +433,7 @@ ChatBypass.Name= "Chat Bypass"
 ChatBypass.Parent = Frame
 ChatBypass.BackgroundColor3 = Color3.new(1, 1, 1)
 ChatBypass.BorderSizePixel = 0
-ChatBypass.Position = UDim2.new(0.249208622, 0, 0.423, 0)
+ChatBypass.Position = UDim2.new(0.025, 0, 0.423, 0)
 ChatBypass.Size = UDim2.new(0, 200, 0, 50)
 ChatBypass.Font = Enum.Font.SourceSansBold
 ChatBypass.Text = "Chat Bypass"
@@ -557,10 +557,10 @@ FEKILL.TextColor3 = Color3.new(0, 0, 0)
 FEKILL.TextSize = 32
 FEKILL.TextWrapped = true
 FEKILL.MouseButton1Down:connect(function()
-	loadstring(game:HttpGet('https://pastebin.com/rmqYLJ9f', true))()
+	loadstring(game:HttpGet('https://pastebin.com/raw/rmqYLJ9f', true))()
 end)
 FEKILL.MouseButton1Down:connect(function()
-	loadstring(game:HttpGet('https://pastebin.com/8ifduJfr', true))()
+	loadstring(game:HttpGet('https://pastebin.com/raw/8ifduJfr', true))()
 end)
 
 Working4.Name = "Working4"
@@ -872,7 +872,7 @@ MainFrame.Visible = true
 wait(0.3)
 
 game.StarterGui:SetCore("SendNotification", {
-    Title = "Centric X 0.0.9-3 Loaded";
+    Title = "Centric X 0.0.9-4 Loaded";
     Text = "GUI made by AntCar#3763 (not scripts)";
 })
 wait(6.5)
