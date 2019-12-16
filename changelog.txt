@@ -57,3 +57,6 @@ game.StarterGui:SetCore("SendNotification", {
 
 4/9/19 Centric X updated 0.0.2 (Pre-Beta) changelog:
 [+] Main Frame With rounded Corners Created.
+
+Centric X updated 0.0.1 (Pre-Beta) changelog:
+[*] Project Started
