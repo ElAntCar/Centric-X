@@ -16,7 +16,7 @@
 [+] Added a Chat Bypass Method
 
 30/11/19 Centric X updated 0.0.9 (Pre-Beta) changelog:
-[+] Added a new FPS/XYZ Lib (If you press [Destroy GUI] for any reason it just dont Destroy [even if u put the real name of that GUI])
+[+] Added a new FPS/XYZ Lib
 [+] Added Bad Bussiness
 [+] Open/Hide Frame
 [+] Updated Ducky Script (still semi-broken)
