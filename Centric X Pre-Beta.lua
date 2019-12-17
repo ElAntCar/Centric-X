@@ -26,6 +26,7 @@ local CarCrusher = Instance.new("TextButton")
 local ChatBypass = Instance.new("TextButton")
 local FEKILL = Instance.new("TextButton")
 local FEKILLInvisible = Instance.new("TextButton")
+local OwlHub = Instance.new("TextButton")
 --Working
 local Working1 = Instance.new("TextLabel")
 local Working2 = Instance.new("TextLabel")
@@ -35,6 +36,7 @@ local Workingcar = Instance.new("TextLabel")
 local WorkingChat = Instance.new("TextLabel")
 local Working4 = Instance.new("TextLabel")
 local Working5 = Instance.new("TextLabel")
+local WorkingOwl = Instance.new("TextLabel")
 --Destroy GUI
 local DestroyGUI = Instance.new("TextButton")
 --
