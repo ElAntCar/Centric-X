@@ -843,6 +843,25 @@ Working5.TextSize = 14
 Working5.TextWrapped = true
 --
 --
+-- OWL HUB
+--
+--
+OwlHub.Name = "Owlhub"
+OwlHub.Parent = Frame
+OwlHub.BackgroundColor3 = Color3.new(1, 1, 1)
+OwlHub.BorderSizePixel = 0
+OwlHub.Position = UDim2.new(0.025, 0, 0.669, 0)
+OwlHub.Size = UDim2.new(0, 200, 0, 50)
+OwlHub.Font = Enum.Font.SourceSansBold
+OwlHub.Text = "Owl Hub"
+OwlHub.TextColor3 = Color3.new(0, 0, 0)
+OwlHub.TextSize = 32
+OwlHub.TextWrapped = true
+OwlHub.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();
+end)
+--
+--
 -- DESTROY GUI
 --
 --
