@@ -860,6 +860,20 @@ OwlHub.TextWrapped = true
 OwlHub.MouseButton1Down:connect(function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();
 end)
+
+WorkingOwl.Name = "WorkingOwl"
+WorkingOwl.Parent = OwlHub
+WorkingOwl.BackgroundColor3 = Color3.new(1, 1, 1)
+WorkingOwl.BackgroundTransparency = 1
+WorkingOwl.BorderSizePixel = 0
+WorkingOwl.Position = UDim2.new(1.06, 0, 0, 0)
+WorkingOwl.Size = UDim2.new(0, 114, 0, 50)
+WorkingOwl.Font = Enum.Font.SourceSansBold
+WorkingOwl.Text = "Working ✔"
+WorkingOwl.TextColor3 = Color3.new(0.333333, 1, 0)
+WorkingOwl.TextScaled = true
+WorkingOwl.TextSize = 14
+WorkingOwl.TextWrapped = true
 --
 --
 -- DESTROY GUI
