@@ -26,6 +26,7 @@ local CarCrusher = Instance.new("TextButton")
 local ChatBypass = Instance.new("TextButton")
 local FEKILL = Instance.new("TextButton")
 local FEKILLInvisible = Instance.new("TextButton")
+local OwlHub = Instance.new("TextButton")
 --Working
 local Working1 = Instance.new("TextLabel")
 local Working2 = Instance.new("TextLabel")
@@ -35,6 +36,7 @@ local Workingcar = Instance.new("TextLabel")
 local WorkingChat = Instance.new("TextLabel")
 local Working4 = Instance.new("TextLabel")
 local Working5 = Instance.new("TextLabel")
+local WorkingOwl = Instance.new("TextLabel")
 --Destroy GUI
 local DestroyGUI = Instance.new("TextButton")
 --
@@ -64,7 +66,7 @@ Version.BorderSizePixel = 0
 Version.Position = UDim2.new(0.453324966, 0, 0.669510841, 0)
 Version.Size = UDim2.new(0, 200, 0, 50)
 Version.Font = Enum.Font.SourceSansBold
-Version.Text = "Version: 0.0.9-4 (Pre-Beta)"
+Version.Text = "Version: 0.0.10 (Pre-Beta)"
 Version.TextColor3 = Color3.new(0.0862745, 0.0862745, 0.0862745)
 Version.TextScaled = true
 Version.TextSize = 14
@@ -841,6 +843,39 @@ Working5.TextSize = 14
 Working5.TextWrapped = true
 --
 --
+-- OWL HUB
+--
+--
+OwlHub.Name = "Owlhub"
+OwlHub.Parent = Frame
+OwlHub.BackgroundColor3 = Color3.new(1, 1, 1)
+OwlHub.BorderSizePixel = 0
+OwlHub.Position = UDim2.new(0.025, 0, 0.669, 0)
+OwlHub.Size = UDim2.new(0, 200, 0, 50)
+OwlHub.Font = Enum.Font.SourceSansBold
+OwlHub.Text = "Owl Hub"
+OwlHub.TextColor3 = Color3.new(0, 0, 0)
+OwlHub.TextSize = 32
+OwlHub.TextWrapped = true
+OwlHub.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();
+end)
+
+WorkingOwl.Name = "WorkingOwl"
+WorkingOwl.Parent = OwlHub
+WorkingOwl.BackgroundColor3 = Color3.new(1, 1, 1)
+WorkingOwl.BackgroundTransparency = 1
+WorkingOwl.BorderSizePixel = 0
+WorkingOwl.Position = UDim2.new(1.06, 0, 0, 0)
+WorkingOwl.Size = UDim2.new(0, 114, 0, 50)
+WorkingOwl.Font = Enum.Font.SourceSansBold
+WorkingOwl.Text = "Working ✔"
+WorkingOwl.TextColor3 = Color3.new(0.333333, 1, 0)
+WorkingOwl.TextScaled = true
+WorkingOwl.TextSize = 14
+WorkingOwl.TextWrapped = true
+--
+--
 -- DESTROY GUI
 --
 --
@@ -857,6 +892,7 @@ DestroyGUI.TextSize = 32
 DestroyGUI.TextWrapped = true
 DestroyGUI.MouseButton1Down:connect(function()
 	CentricX:Destroy()
+	StatusBar:Destroy()
 end)
 --
 --
@@ -872,7 +908,7 @@ MainFrame.Visible = true
 wait(0.3)
 
 game.StarterGui:SetCore("SendNotification", {
-    Title = "Centric X 0.0.9-4 Loaded";
+    Title = "Centric X 0.0.10 Loaded";
     Text = "GUI made by AntCar#3763 (not scripts)";
 })
 wait(6.5)
