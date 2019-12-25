@@ -66,7 +66,7 @@ Version.BorderSizePixel = 0
 Version.Position = UDim2.new(0.453324966, 0, 0.669510841, 0)
 Version.Size = UDim2.new(0, 200, 0, 50)
 Version.Font = Enum.Font.SourceSansBold
-Version.Text = "Version: 0.0.10 (Pre-Beta)"
+Version.Text = "Version: 0.0.10-1 (Pre-Beta)"
 Version.TextColor3 = Color3.new(0.0862745, 0.0862745, 0.0862745)
 Version.TextScaled = true
 Version.TextSize = 14
@@ -908,7 +908,7 @@ MainFrame.Visible = true
 wait(0.3)
 
 game.StarterGui:SetCore("SendNotification", {
-    Title = "Centric X 0.0.10 Loaded";
+    Title = "Centric X 0.0.10-1 Loaded";
     Text = "GUI made by AntCar#3763 (not scripts)";
 })
 wait(6.5)
