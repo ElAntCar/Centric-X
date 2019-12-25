@@ -1,5 +1,8 @@
 # Centric-X Pre-Beta
 
+25/12/19 Centric X updated 0.0.10 (Pre-Beta) changelog:
+[+] Added OwlHub
+
 16/12/19 Centric X updated 0.0.9-4 (Pre-Beta) changelog:
 [FX] Fixed ChatBypass.Position
 [FX] FEKILL Loadstrings
