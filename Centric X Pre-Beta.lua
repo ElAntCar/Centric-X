@@ -525,10 +525,14 @@ game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageReque
 end
 
 end)
-game.StarterGui:SetCore("SendNotification", {
-Title = "Chat Bypass Loaded";
+end)
+ChatBypass.MouseButton1Down:connect(function()
+    game.StarterGui:SetCore("SendNotification", {
+        Title = "Centric X 0.0.10-1 Loaded";
+        Text = "GUI made by AntCar#3763 (not scripts)";
 })
 end)
+
 WorkingChat.Name = "WorkingChat"
 WorkingChat.Parent = ChatBypass
 WorkingChat.BackgroundColor3 = Color3.new(1, 1, 1)
