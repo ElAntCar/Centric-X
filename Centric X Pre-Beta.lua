@@ -311,7 +311,7 @@ BadBussiness.TextColor3 = Color3.new(0, 0, 0)
 BadBussiness.TextSize = 32
 BadBussiness.TextWrapped = true
 BadBussiness.MouseButton1Down:connect(function()
-	
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();
 end)
 
 WorkingBadBussiness.Name = "WorkingBadBussiness"
@@ -339,78 +339,12 @@ CarCrusher.BorderSizePixel = 0
 CarCrusher.Position = UDim2.new(0.025, 0, 0.259, 0)
 CarCrusher.Size = UDim2.new(0, 200, 0, 50)
 CarCrusher.Font = Enum.Font.SourceSansBold
-CarCrusher.Text = "Car Crusher 2 (AutoFarm)"
+CarCrusher.Text = "Car Crusher 2 (SnowMan ESP)"
 CarCrusher.TextColor3 = Color3.new(0, 0, 0)
 CarCrusher.TextSize = 32
 CarCrusher.TextWrapped = true
 CarCrusher.MouseButton1Down:connect(function()
-	local info = game.ReplicatedStorage.VehicleInformation
-if not game:GetService("MarketplaceService"):UserOwnsGamePassAsync(game.Players.LocalPlayer.UserId, 2465866,2465906,5157513,2629753) then
-for i, v in pairs(info:GetChildren()) do
-    if v:findFirstChild("VipOnly") then
-    if v:findFirstChild("Price") then
-   if v.VipOnly.Value then
-v.Price.Value = 0
-   end
-    end
-
-local info = game.ReplicatedStorage.VehicleInformation
-if not game.Players.LocalPlayer:IsInGroup(2726951) then
-for i, v in pairs(info:GetChildren()) do
-if v.GroupOnly.Value then
-    if v:findFirstChild("VipOnly") then
-v.Price.Value = 0
-end
-end
-end
-end
-end
-end
-end
-
-workspace["All crushers"]["Volcano Pit"].Lava.Size = Vector3.new(100,100,100)
-workspace["All crushers"]["Volcano Pit"].Lava.Transparency = 1
---workspace["All crushers"]["Volcano Pit"].PhysicsBump.Size = Vector3.new(100,100,100)
---workspace["All crushers"]["Volcano Pit"].PhysicsBump.Transparency = 1
-
-
-while true do
-local info = game.ReplicatedStorage.VehicleInformation
-local plr = game.Players.LocalPlayer
-local money = plr.Money.Value
-
-local bestName, bestPrice = nil, 0
-for i, car in pairs(info:GetChildren()) do
-    local name = car.Name
-    local price = car.Price.Value-5
-    if price > bestPrice and price <= money then
-        bestName, bestPrice = name, price
-    end
-end
-
-
-game.ReplicatedStorage.rF['LoadSaveCustoms']:InvokeServer("Save","Institutional white","Platinum",bestName)
-wait(0.25)
-game:GetService("ReplicatedStorage").rF.SpawnVehicle:InvokeServer(bestName)
-
-for i=1,10 do
-if game.Workspace.CarCollection:findFirstChild(game.Players.LocalPlayer.Name) then
-if game.Workspace.CarCollection[game.Players.LocalPlayer.Name].Car.PrimaryPart ~= nil then
-game.Workspace.CarCollection[game.Players.LocalPlayer.Name].Car:SetPrimaryPartCFrame(CFrame.new(130.613281, -325.787872, -439.587036, -0.0313572325, 0.984323323, -0.173563436, -7.01718506e-09, 0.173648819, 0.984807611, 0.999508262, 0.0308808442, -0.00544513995))
-wait()
-end
-end
-end
-for _,v in pairs(workspace:GetDescendants()) do
-if v.ClassName == "Part" then
-if v.Size == Vector3.new(2.47, 2.2, 1.21)
-or v.Size == Vector3.new(1, 3.125, 1) then
-v.CFrame = CFrame.new(game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.Position)
-end
-end
-end
-wait()
-end
+     loadstring(game:HttpGet(('https://pastebin.com/raw/ZX1SEcM9'),true))()
 end)
 
 Workingcar.Name = "Workingcar"
@@ -421,8 +355,8 @@ Workingcar.BorderSizePixel = 0
 Workingcar.Position = UDim2.new(1.06, 0, 0, 0)
 Workingcar.Size = UDim2.new(0, 114, 0, 50)
 Workingcar.Font = Enum.Font.SourceSansBold
-Workingcar.Text = "Patched ✘"
-Workingcar.TextColor3 = Color3.new(255, 0, 0)
+Workingcar.Text = "Working ✔"
+Workingcar.TextColor3 = Color3.new(0.333333, 1, 0)
 Workingcar.TextScaled = true
 Workingcar.TextSize = 14
 Workingcar.TextWrapped = true
