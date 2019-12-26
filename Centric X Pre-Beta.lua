@@ -528,8 +528,8 @@ end)
 end)
 ChatBypass.MouseButton1Down:connect(function()
     game.StarterGui:SetCore("SendNotification", {
-        Title = "Centric X 0.0.10-1 Loaded";
-        Text = "GUI made by AntCar#3763 (not scripts)";
+        Title = "Centric X Info";
+        Text = "Chat Bypass Loaded";
 })
 end)
 
