@@ -1,5 +1,11 @@
 # Centric-X Pre-Beta
 
+27/12/19 Centric X updated 0.0.10-1 (Pre-Beta) changelog:
+[+] Added a temporal Bad Bussiness script
+[+] Added a new Car Crushers 2 Script for the current even (Snowman ESP)
+[SOURCE] Compacted a bit with loadstrings
+[FX] Fixed Chat Bypass Notification when loaded
+
 25/12/19 Centric X updated 0.0.10 (Pre-Beta) changelog:
 [+] Added OwlHub
 
