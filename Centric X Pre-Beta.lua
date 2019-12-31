@@ -783,6 +783,39 @@ Working5.TextSize = 14
 Working5.TextWrapped = true
 --
 --
+-- FLEE THE FACILITY
+--
+--
+Flee.Name = "Flee"
+Flee.Parent = Frame
+Flee.BackgroundColor3 = Color3.new(1, 1, 1)
+Flee.BorderSizePixel = 0
+Flee.Position = UDim2.new(0.025, 0, 0.669, 0)
+Flee.Size = UDim2.new(0, 200, 0, 50)
+Flee.Font = Enum.Font.SourceSansBold
+Flee.Text = "Flee The Facility"
+Flee.TextColor3 = Color3.new(0, 0, 0)
+Flee.TextSize = 32
+Flee.TextWrapped = true
+Flee.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://pastebin.com/raw/S8wi1WnD', true))()	
+end)
+
+WorkingFlee.Name = "WorkingFlee"
+WorkingFlee.Parent = Flee
+WorkingFlee.BackgroundColor3 = Color3.new(1, 1, 1)
+WorkingFlee.BackgroundTransparency = 1
+WorkingFlee.BorderSizePixel = 0
+WorkingFlee.Position = UDim2.new(1.06, 0, 0, 0)
+WorkingFlee.Size = UDim2.new(0, 114, 0, 50)
+WorkingFlee.Font = Enum.Font.SourceSansBold
+WorkingFlee.Text = "Working ✔"
+WorkingFlee.TextColor3 = Color3.new(0.333333, 1, 0)
+WorkingFlee.TextScaled = true
+WorkingFlee.TextSize = 14
+WorkingFlee.TextWrapped = true
+--
+--
 -- OWL HUB
 --
 --
@@ -790,7 +823,7 @@ OwlHub.Name = "Owlhub"
 OwlHub.Parent = Frame
 OwlHub.BackgroundColor3 = Color3.new(1, 1, 1)
 OwlHub.BorderSizePixel = 0
-OwlHub.Position = UDim2.new(0.025, 0, 0.669, 0)
+OwlHub.Position = UDim2.new(0.025, 0, 0.751, 0)
 OwlHub.Size = UDim2.new(0, 200, 0, 50)
 OwlHub.Font = Enum.Font.SourceSansBold
 OwlHub.Text = "Owl Hub"
