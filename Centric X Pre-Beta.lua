@@ -27,6 +27,7 @@ local ChatBypass = Instance.new("TextButton")
 local FEKILL = Instance.new("TextButton")
 local FEKILLInvisible = Instance.new("TextButton")
 local Flee = Instance.new("TextButton")
+local MadCity = Instance.new("TextButton")
 local OwlHub = Instance.new("TextButton")
 --Working
 local Working1 = Instance.new("TextLabel")
@@ -38,6 +39,7 @@ local WorkingChat = Instance.new("TextLabel")
 local Working4 = Instance.new("TextLabel")
 local Working5 = Instance.new("TextLabel")
 local WorkingFlee = Instance.new("TextLabel")
+local WorkingMadCity = Instance.new("TextLabel")
 local WorkingOwl = Instance.new("TextLabel")
 --Destroy GUI
 local DestroyGUI = Instance.new("TextButton")
@@ -816,6 +818,27 @@ WorkingFlee.TextSize = 14
 WorkingFlee.TextWrapped = true
 --
 --
+-- MAD CITY
+--
+--
+MadCity.Name = "MadCity"
+MadCity.Parent = Frame
+MadCity.BackgroundColor3 = Color3.new(1, 1, 1)
+MadCity.BorderSizePixel = 0
+MadCity.Position = UDim2.new(0.025, 0, 0.751, 0)
+MadCity.Size = UDim2.new(0, 200, 0, 50)
+MadCity.Font = Enum.Font.SourceSansBold
+MadCity.Text = "MadCity Autofarm"
+MadCity.TextColor3 = Color3.new(0, 0, 0)
+MadCity.TextSize = 32
+MadCity.TextWrapped = true
+MadCity.MouseButton1Down:connect(function()
+	Invisible = true
+        loadstring(game:HttpGet("https://jxnt-scripts.com/madlads/MadLadsAR.lua",true))()	
+end)
+
+--
+--
 -- OWL HUB
 --
 --
@@ -823,7 +846,7 @@ OwlHub.Name = "Owlhub"
 OwlHub.Parent = Frame
 OwlHub.BackgroundColor3 = Color3.new(1, 1, 1)
 OwlHub.BorderSizePixel = 0
-OwlHub.Position = UDim2.new(0.025, 0, 0.751, 0)
+OwlHub.Position = UDim2.new(0.025, 0, 0.833, 0)
 OwlHub.Size = UDim2.new(0, 200, 0, 50)
 OwlHub.Font = Enum.Font.SourceSansBold
 OwlHub.Text = "Owl Hub"
