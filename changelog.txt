@@ -1,5 +1,9 @@
 # Centric-X Pre-Beta
 
+21/1/20 Centric X updated 0.0.10-2 (Pre-Beta) changelog:
+[+] Added Mad City Autorob
+[+] Added Flee The Facility GUI
+[*] Updated Chat Bypass
 27/12/19 Centric X updated 0.0.10-1 (Pre-Beta) changelog:
 [+] Added a temporal Bad Bussiness script
 [+] Added a new Car Crushers 2 Script for the current event (Snowman ESP)
