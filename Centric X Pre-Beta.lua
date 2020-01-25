@@ -785,6 +785,17 @@ MM2.TextColor3 = Color3.new(0, 0, 0)
 MM2.TextSize = 32
 MM2.TextWrapped = true
 MM2.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://pastebin.com/09tJEvYE', true))()
+end)
+MM2.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();
+end)
+MM2.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/5dBRaQxm",true))()
+end)
+MM2.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
+end)
 --
 --
 -- OWL HUB
