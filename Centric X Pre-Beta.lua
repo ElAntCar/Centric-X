@@ -28,6 +28,7 @@ local FEKILL = Instance.new("TextButton")
 local FEKILLInvisible = Instance.new("TextButton")
 local Flee = Instance.new("TextButton")
 local MadCity = Instance.new("TextButton")
+local MM2 = Instance.new("TextButton")
 local OwlHub = Instance.new("TextButton")
 --Working
 local Working1 = Instance.new("TextLabel")
@@ -767,6 +768,23 @@ WorkingMadCity.TextColor3 = Color3.new(0, 0, 0)
 WorkingMadCity.TextScaled = true
 WorkingMadCity.TextSize = 14
 WorkingMadCity.TextWrapped = true
+--
+--
+-- MM2
+--
+--
+MM2.Name = "MM2"
+MM2.Parent = Frame
+MM2.BackgroundColor3 = Color3.new(1, 1, 1)
+MM2.BorderSizePixel = 0
+MM2.Position = UDim2.new(0.025, 0, 0.833, 0)
+MM2.Size = UDim2.new(0, 200, 0, 50)
+MM2.Font = Enum.Font.SourceSansBold
+MM2.Text = "Murder Mystery 2"
+MM2.TextColor3 = Color3.new(0, 0, 0)
+MM2.TextSize = 32
+MM2.TextWrapped = true
+MM2.MouseButton1Down:connect(function()
 --
 --
 -- OWL HUB
