@@ -212,10 +212,10 @@ AdminCommands.TextScaled = true
 AdminCommands.TextSize = 14
 AdminCommands.TextWrapped = true
 AdminCommands.MouseButton1Down:connect(function()	
-    loadstring(game:HttpGet(('https://pastebin.com/raw/tzTXmYf2'),true))()	
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()	
 end)
 AdminCommands.MouseButton1Down:connect(function()	
-	loadstring(game:HttpGet("https://pastebin.com/raw/5dBRaQxm",true))()
+    loadstring(game:HttpGet("https://pastebin.com/raw/5dBRaQxm",true))()
 end)
 Working1.Name = "Working1"
 Working1.Parent = AdminCommands
