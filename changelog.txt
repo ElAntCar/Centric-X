@@ -1,5 +1,8 @@
 # Centric-X Pre-Beta
 
+25/1/20 Centric X updated 0.0.10-4 (Pre-Beta) changelog:
+[*] Updated Infinite Yield Loadstring
+
 23/1/20 Centric X updated 0.0.10-3 (Pre-Beta) changelog:
 [-] Working System Disabled temporally
 
