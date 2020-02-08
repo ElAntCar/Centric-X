@@ -29,6 +29,7 @@ local FEKILLInvisible = Instance.new("TextButton")
 local Flee = Instance.new("TextButton")
 local MadCity = Instance.new("TextButton")
 local MM2 = Instance.new("TextButton")
+local Potato = Instance.new("TextButton")
 local OwlHub = Instance.new("TextButton")
 --Working
 local Working1 = Instance.new("TextLabel")
@@ -41,6 +42,7 @@ local Working4 = Instance.new("TextLabel")
 local Working5 = Instance.new("TextLabel")
 local WorkingFlee = Instance.new("TextLabel")
 local WorkingMadCity = Instance.new("TextLabel")
+local WorkingPotato = Instance.new("TextLabel")
 local WorkingOwl = Instance.new("TextLabel")
 --Destroy GUI
 local DestroyGUI = Instance.new("TextButton")
@@ -811,6 +813,12 @@ MM2.MouseButton1Down:connect(function()
 	wait(10)
 	CentricX:Destroy()
 end)
+--
+--
+-- POTATO HUB
+--
+--
+
 --
 --
 -- OWL HUB
