@@ -73,7 +73,7 @@ Version.BorderSizePixel = 0
 Version.Position = UDim2.new(0.453324966, 0, 0.669510841, 0)
 Version.Size = UDim2.new(0, 200, 0, 50)
 Version.Font = Enum.Font.SourceSansBold
-Version.Text = "Version: 0.0.10-8 (Pre-Beta)"
+Version.Text = "Version: 0.0.10-9 (Pre-Beta)"
 Version.TextColor3 = Color3.new(0.0862745, 0.0862745, 0.0862745)
 Version.TextScaled = true
 Version.TextSize = 14
@@ -741,7 +741,7 @@ WorkingFlee.TextWrapped = true
 -- MAD CITY
 --
 --
-MadCity.Name = "MadCity"
+MadCity.Name = "Mad City"
 MadCity.Parent = Frame
 MadCity.BackgroundColor3 = Color3.new(1, 1, 1)
 MadCity.BorderSizePixel = 0
@@ -789,26 +789,25 @@ MM2.TextWrapped = true
 MM2.MouseButton1Down:connect(function()
     game.StarterGui:SetCore("SendNotification", {
         Title = "Centric X Info";
-        Text = "MM2 Loading...(GUI will be Destroyed!)";
+        Text = "MM2 Loading...";
 })
 end)
-wait(7)
 MM2.MouseButton1Down:connect(function()
 	loadstring(game:HttpGet("https://pastebin.com/raw/09tJEvYE",true))()
+	wait(5)
 end)
-wait(5)
 MM2.MouseButton1Down:connect(function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();
+	wait(3)
 end)
-wait(7)
 MM2.MouseButton1Down:connect(function()
         loadstring(game:HttpGet("https://pastebin.com/raw/5dBRaQxm",true))()
+	wait(3)
 end)
-wait(5)
 MM2.MouseButton1Down:connect(function()
 	loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
+	wait(5)
 end)
-wait(5)
 MM2.MouseButton1Down:connect(function()
 	wait(10)
 	CentricX:Destroy()
@@ -886,7 +885,7 @@ MainFrame.Visible = true
 wait(0.3)
 
 game.StarterGui:SetCore("SendNotification", {
-    Title = "Centric X 0.0.10-8 Loaded";
+    Title = "Centric X 0.0.10-9 Loaded";
     Text = "GUI made by AntCar#3763 (not scripts)";
 })
 wait(6.5)
