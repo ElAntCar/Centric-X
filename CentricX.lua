@@ -1,4 +1,4 @@
---New Section = 0.082+ xxx.Position
+--New Section = 0.062+ xxx.Position
 --Warns
 warn "DM me if you find a bug (NO SUPPORT FOR OTHER EXPLOITS)"
 warn "Discord of Genesis and Centric X: qJUm5N7"
@@ -194,7 +194,7 @@ Frame.Position = UDim2.new(0, 0, -0.00408112071, 0)
 Frame.Size = UDim2.new(0, 355, 0, 189)
 Frame.ScrollBarThickness = 10
 Frame.VerticalScrollBarInset = Enum.ScrollBarInset.Always
-Frame.CanvasSize = UDim2.new(0, 0, 4, 0)
+Frame.CanvasSize = UDim2.new(0, 0, 5, 0)
 Frame.Draggable = true
 
 --
@@ -242,7 +242,7 @@ Aimbot.Name = "Aimbot"
 Aimbot.Parent = Frame
 Aimbot.BackgroundColor3 = Color3.new(1, 1, 1)
 Aimbot.BorderSizePixel = 0
-Aimbot.Position = UDim2.new(0.025, 0, 0.095, 0)
+Aimbot.Position = UDim2.new(0.025, 0, 0.075, 0)
 Aimbot.Size = UDim2.new(0, 200, 0, 50)
 Aimbot.Font = Enum.Font.SourceSansBold
 Aimbot.Text = "Aimbot"
@@ -275,7 +275,7 @@ Arsenal.Name = "Arsenal"
 Arsenal.Parent = Frame
 Arsenal.BackgroundColor3 = Color3.new(1, 1, 1)
 Arsenal.BorderSizePixel = 0
-Arsenal.Position = UDim2.new(0.025, 0, 0.177, 0)
+Arsenal.Position = UDim2.new(0.025, 0, 0.157, 0)
 Arsenal.Size = UDim2.new(0, 200, 0, 50)
 Arsenal.Font = Enum.Font.SourceSansBold
 Arsenal.Text = "Arsenal"
