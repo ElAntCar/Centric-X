@@ -817,7 +817,20 @@ end)
 -- POTATO HUB
 --
 --
-
+Potato.Name = "Potato Hub"
+Potato.Parent = Frame
+Potato.BackgroundColor3 = Color3.new(1, 1, 1)
+Potato.BorderSizePixel = 0
+Potato.Position = UDim2.new()
+Potato.Size = UDim2.new(0, 200, 0, 50)
+Potato.Font = Enum.Font.SourceSansBold
+Potato.Text = "Murder Mystery 2"
+Potato.TextColor3 = Color3.new(0, 0, 0)
+Potato.TextSize = 32
+Potato.TextWrapped = true
+Potato.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet(('https://www.potato-hub.com/PotatoHub.lua'),true))()
+end)
 --
 --
 -- OWL HUB
