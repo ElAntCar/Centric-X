@@ -71,7 +71,7 @@ Version.BorderSizePixel = 0
 Version.Position = UDim2.new(0.453324966, 0, 0.669510841, 0)
 Version.Size = UDim2.new(0, 200, 0, 50)
 Version.Font = Enum.Font.SourceSansBold
-Version.Text = "Version: 0.0.10-8 (Pre-Beta)"
+Version.Text = "Version: 0.0.11 (Pre-Beta)"
 Version.TextColor3 = Color3.new(0.0862745, 0.0862745, 0.0862745)
 Version.TextScaled = true
 Version.TextSize = 14
@@ -215,9 +215,7 @@ AdminCommands.TextWrapped = true
 AdminCommands.MouseButton1Down:connect(function()	
     loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()	
 end)
-AdminCommands.MouseButton1Down:connect(function()	
-    loadstring(game:HttpGet("https://pastebin.com/raw/5dBRaQxm",true))()
-end)
+
 Working1.Name = "Working1"
 Working1.Parent = AdminCommands
 Working1.BackgroundColor3 = Color3.new(1, 1, 1)
@@ -302,7 +300,7 @@ Working3.TextWrapped = true
 -- Bad Bussiness
 --
 --
-BadBussiness.Name = "Bad Bussiness"
+BadBussiness.Name = "???"
 BadBussiness.Parent = Frame
 BadBussiness.BackgroundColor3 = Color3.new(1, 1, 1)
 BadBussiness.BorderSizePixel = 0
@@ -314,7 +312,7 @@ BadBussiness.TextColor3 = Color3.new(0, 0, 0)
 BadBussiness.TextSize = 32
 BadBussiness.TextWrapped = true
 BadBussiness.MouseButton1Down:connect(function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();
+		
 end)
 
 WorkingBadBussiness.Name = "WorkingBadBussiness"
@@ -335,7 +333,7 @@ WorkingBadBussiness.TextWrapped = true
 -- Car Crushers2
 --
 --
-CarCrusher.Name = "CarCrusher"
+CarCrusher.Name = "???"
 CarCrusher.Parent = Frame
 CarCrusher.BackgroundColor3 = Color3.new(1, 1, 1)
 CarCrusher.BorderSizePixel = 0
@@ -347,7 +345,7 @@ CarCrusher.TextColor3 = Color3.new(0, 0, 0)
 CarCrusher.TextSize = 32
 CarCrusher.TextWrapped = true
 CarCrusher.MouseButton1Down:connect(function()
-     loadstring(game:HttpGet(('https://pastebin.com/raw/ZX1SEcM9'),true))()
+		
 end)
 
 Workingcar.Name = "Workingcar"
@@ -368,7 +366,7 @@ Workingcar.TextWrapped = true
 -- CHAT BYPASS
 --
 --
-ChatBypass.Name= "Chat Bypass"
+ChatBypass.Name= "???"
 ChatBypass.Parent = Frame
 ChatBypass.BackgroundColor3 = Color3.new(1, 1, 1)
 ChatBypass.BorderSizePixel = 0
@@ -380,12 +378,10 @@ ChatBypass.TextColor3 = Color3.new(0, 0, 0)
 ChatBypass.TextSize = 32
 ChatBypass.TextWrapped = true
 ChatBypass.MouseButton1Down:connect(function()
-loadstring(game:HttpGet(('https://pastebin.com/raw/8YRmDC2p'),true))()
-end)
 ChatBypass.MouseButton1Down:connect(function()
     game.StarterGui:SetCore("SendNotification", {
         Title = "Centric X Info";
-        Text = "Chat Bypass Loaded";
+        Text = "Coming Soon...";
 })
 end)
 
@@ -739,7 +735,7 @@ WorkingFlee.TextWrapped = true
 -- MAD CITY
 --
 --
-MadCity.Name = "MadCity"
+MadCity.Name = "???"
 MadCity.Parent = Frame
 MadCity.BackgroundColor3 = Color3.new(1, 1, 1)
 MadCity.BorderSizePixel = 0
@@ -751,8 +747,6 @@ MadCity.TextColor3 = Color3.new(0, 0, 0)
 MadCity.TextSize = 32
 MadCity.TextWrapped = true
 MadCity.MouseButton1Down:connect(function()
-	Invisible = true
-        loadstring(game:HttpGet("https://jxnt-scripts.com/madlads/MadLadsAR.lua",true))()	
 end)
 
 WorkingMadCity.Name = "WorkingMadCity"
@@ -790,19 +784,11 @@ MM2.MouseButton1Down:connect(function()
         Text = "MM2 Loading...(GUI will be Destroyed!)";
 })
 end)
-wait(7)
-MM2.MouseButton1Down:connect(function()
-	loadstring(game:HttpGet("https://pastebin.com/raw/09tJEvYE",true))()
-end)
 wait(5)
 MM2.MouseButton1Down:connect(function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();
 end)
 wait(7)
-MM2.MouseButton1Down:connect(function()
-        loadstring(game:HttpGet("https://pastebin.com/raw/5dBRaQxm",true))()
-end)
-wait(5)
 MM2.MouseButton1Down:connect(function()
 	loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
 end)
@@ -816,7 +802,7 @@ end)
 -- OWL HUB
 --
 --
-OwlHub.Name = "Owlhub"
+OwlHub.Name = "OwlHub"
 OwlHub.Parent = Frame
 OwlHub.BackgroundColor3 = Color3.new(1, 1, 1)
 OwlHub.BorderSizePixel = 0
@@ -878,7 +864,7 @@ MainFrame.Visible = true
 wait(0.3)
 
 game.StarterGui:SetCore("SendNotification", {
-    Title = "Centric X 0.0.10-8 Loaded";
+    Title = "Centric X 0.0.11 Loaded";
     Text = "GUI made by AntCar#3763 (not scripts)";
 })
 wait(6.5)
