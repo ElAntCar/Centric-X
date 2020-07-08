@@ -71,7 +71,7 @@ Version.BorderSizePixel = 0
 Version.Position = UDim2.new(0.453324966, 0, 0.669510841, 0)
 Version.Size = UDim2.new(0, 200, 0, 50)
 Version.Font = Enum.Font.SourceSansBold
-Version.Text = "Version: 0.0.11 (Pre-Beta)"
+Version.Text = "Version: 0.0.11-1 (Pre-Beta)"
 Version.TextColor3 = Color3.new(0.0862745, 0.0862745, 0.0862745)
 Version.TextScaled = true
 Version.TextSize = 14
@@ -377,7 +377,6 @@ ChatBypass.Text = "Chat Bypass"
 ChatBypass.TextColor3 = Color3.new(0, 0, 0)
 ChatBypass.TextSize = 32
 ChatBypass.TextWrapped = true
-ChatBypass.MouseButton1Down:connect(function()
 ChatBypass.MouseButton1Down:connect(function()
     game.StarterGui:SetCore("SendNotification", {
         Title = "Centric X Info";
@@ -735,18 +734,19 @@ WorkingFlee.TextWrapped = true
 -- MAD CITY
 --
 --
-MadCity.Name = "???"
+MadCity.Name = "MadCity"
 MadCity.Parent = Frame
 MadCity.BackgroundColor3 = Color3.new(1, 1, 1)
 MadCity.BorderSizePixel = 0
 MadCity.Position = UDim2.new(0.025, 0, 0.751, 0)
 MadCity.Size = UDim2.new(0, 200, 0, 50)
 MadCity.Font = Enum.Font.SourceSansBold
-MadCity.Text = "MadCity Autofarm"
+MadCity.Text = "MadCity"
 MadCity.TextColor3 = Color3.new(0, 0, 0)
 MadCity.TextSize = 32
 MadCity.TextWrapped = true
 MadCity.MouseButton1Down:connect(function()
+        loadstring(game:HttpGet("https://system-exodus.com/scripts/madlads/MadLads.lua",true))()
 end)
 
 WorkingMadCity.Name = "WorkingMadCity"
@@ -784,17 +784,16 @@ MM2.MouseButton1Down:connect(function()
         Text = "MM2 Loading...(GUI will be Destroyed!)";
 })
 end)
-wait(5)
 MM2.MouseButton1Down:connect(function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();
+	wait(5)
+	loadstring(game:HttpGet('https://pastebin.com/raw/NwbndAwB'))()
 end)
-wait(7)
 MM2.MouseButton1Down:connect(function()
+	wait(5)
 	loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
 end)
-wait(5)
 MM2.MouseButton1Down:connect(function()
-	wait(10)
+	wait(7)
 	CentricX:Destroy()
 end)
 --
@@ -832,26 +831,6 @@ WorkingOwl.TextSize = 14
 WorkingOwl.TextWrapped = true
 --
 --
--- DESTROY GUI
---
---
-DestroyGUI.Name = "Destroy GUI"
-DestroyGUI.Parent = Frame
-DestroyGUI.BackgroundColor3 = Color3.new(1, 1, 1)
-DestroyGUI.BorderSizePixel = 0
-DestroyGUI.Position = UDim2.new(0.0220917203, 0, 0.925, 0)
-DestroyGUI.Size = UDim2.new(0, 200, 0, 50)
-DestroyGUI.Font = Enum.Font.SourceSansBold
-DestroyGUI.Text = "Destroy GUI"
-DestroyGUI.TextColor3 = Color3.new(1, 0, 0)
-DestroyGUI.TextSize = 32
-DestroyGUI.TextWrapped = true
-DestroyGUI.MouseButton1Down:connect(function()
-	CentricX:Destroy()
-	StatusBar:Destroy()
-end)
---
---
 -- GUI Scripts
 --
 --
@@ -864,7 +843,7 @@ MainFrame.Visible = true
 wait(0.3)
 
 game.StarterGui:SetCore("SendNotification", {
-    Title = "Centric X 0.0.11 Loaded";
+    Title = "Centric X 0.0.11-1 Loaded";
     Text = "GUI made by AntCar#3763 (not scripts)";
 })
 wait(6.5)
