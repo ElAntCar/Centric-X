@@ -378,7 +378,6 @@ ChatBypass.TextColor3 = Color3.new(0, 0, 0)
 ChatBypass.TextSize = 32
 ChatBypass.TextWrapped = true
 ChatBypass.MouseButton1Down:connect(function()
-ChatBypass.MouseButton1Down:connect(function()
     game.StarterGui:SetCore("SendNotification", {
         Title = "Centric X Info";
         Text = "Coming Soon...";
