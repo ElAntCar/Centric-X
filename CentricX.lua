@@ -830,26 +830,6 @@ WorkingOwl.TextSize = 14
 WorkingOwl.TextWrapped = true
 --
 --
--- DESTROY GUI
---
---
-DestroyGUI.Name = "Destroy GUI"
-DestroyGUI.Parent = Frame
-DestroyGUI.BackgroundColor3 = Color3.new(1, 1, 1)
-DestroyGUI.BorderSizePixel = 0
-DestroyGUI.Position = UDim2.new(0.0220917203, 0, 0.925, 0)
-DestroyGUI.Size = UDim2.new(0, 200, 0, 50)
-DestroyGUI.Font = Enum.Font.SourceSansBold
-DestroyGUI.Text = "Destroy GUI"
-DestroyGUI.TextColor3 = Color3.new(1, 0, 0)
-DestroyGUI.TextSize = 32
-DestroyGUI.TextWrapped = true
-DestroyGUI.MouseButton1Down:connect(function()
-	CentricX:Destroy()
-	StatusBar:Destroy()
-end)
---
---
 -- GUI Scripts
 --
 --
@@ -858,7 +838,6 @@ LoadingFrame:Destroy()
 wait(0)
 OpenFrame.Visible = true
 MainFrame.Visible = true
-end)
 --Notifications
 wait(0.3)
 
