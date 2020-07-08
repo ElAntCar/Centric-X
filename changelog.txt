@@ -1,5 +1,24 @@
 # Centric-X Pre-Beta
 
+6/7/20 Centric X updated 0.0.11 changelog:
+[-] Deleted Chat Bypass
+[-] Deleted Bad Bussiness
+[-] Deleted Car Crushers 2
+[-] Deleted Mad City
+[-] Deleted 2 scripts in MM2 + fixed crash for 0.0.10-7
+[*] Version Correction (0.0.10-7)
+
+31/1/20 [BROKEN] Centric X updated 0.0.10-7 changelog:
+[+] Added a Notification in MM2
+[*] Fixed some issues in MM2 Section
+
+26/1/20 Centric X updated 0.0.10-6 (Pre-Beta) changelog:
+[*] Fixed some bugs
+[*] Loadstring Updated #download-centricx
+
+25/1/20 Centric X updated 0.0.10-5 (Pre-Beta) changelog:
+[+] MM2 Section
+
 25/1/20 Centric X updated 0.0.10-4 (Pre-Beta) changelog:
 [*] Updated Infinite Yield Loadstring
 
