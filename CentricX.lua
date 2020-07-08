@@ -858,6 +858,7 @@ LoadingFrame:Destroy()
 wait(0)
 OpenFrame.Visible = true
 MainFrame.Visible = true
+end)
 --Notifications
 wait(0.3)
 
