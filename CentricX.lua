@@ -735,18 +735,19 @@ WorkingFlee.TextWrapped = true
 -- MAD CITY
 --
 --
-MadCity.Name = "???"
+MadCity.Name = "MadCity"
 MadCity.Parent = Frame
 MadCity.BackgroundColor3 = Color3.new(1, 1, 1)
 MadCity.BorderSizePixel = 0
 MadCity.Position = UDim2.new(0.025, 0, 0.751, 0)
 MadCity.Size = UDim2.new(0, 200, 0, 50)
 MadCity.Font = Enum.Font.SourceSansBold
-MadCity.Text = "MadCity Autofarm"
+MadCity.Text = "MadCity"
 MadCity.TextColor3 = Color3.new(0, 0, 0)
 MadCity.TextSize = 32
 MadCity.TextWrapped = true
 MadCity.MouseButton1Down:connect(function()
+        loadstring(game:HttpGet("https://system-exodus.com/scripts/madlads/MadLads.lua",true))()
 end)
 
 WorkingMadCity.Name = "WorkingMadCity"
@@ -786,15 +787,13 @@ MM2.MouseButton1Down:connect(function()
 end)
 wait(5)
 MM2.MouseButton1Down:connect(function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();
-end)
-wait(7)
-MM2.MouseButton1Down:connect(function()
-	loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
+	loadstring(game:HttpGet('https://pastebin.com/raw/NwbndAwB'))()
 end)
 wait(5)
 MM2.MouseButton1Down:connect(function()
-	wait(10)
+	loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
+end)
+MM2.MouseButton1Down:connect(function()
 	CentricX:Destroy()
 end)
 --
